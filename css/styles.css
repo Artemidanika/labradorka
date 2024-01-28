@@ -6,22 +6,82 @@ body {
 
 
 
+
+.main-header {
+    border-bottom: 1px solid #e7e9fc
+}
+
+.container {
+    display: flex;
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+    align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+margin: 0;
+}
+
+
 ul, ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo-header .studio-nav {
+    margin-right: 76px;
 }
 
 
 .address-header {
     font-style: normal;
+    margin-left: auto;
+}
+
+.list-nav {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+
+}
+
+.main-list-nav {
+    padding: 24px 0;
+    margin-right: 0;
 }
 
 .head-h {
     color: #FFF;
-    text-align: center;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    max-width: 496px;
+   align-items: center;
+}
 
+
+.list-address {
+    display: flex;
+    gap: 40px;
+  
+}
+
+.list-contact {
+    padding: 24px 0;
+    margin-right: 0;
+}
+
+
+img {
+    display: block;
 }
 
 
@@ -58,12 +118,17 @@ button {
 
 
 .button-header {
-    background-color: #4D5AE5;
+    background-color:  #4d5ae5;
     color: #FFF;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+border-radius: 4px;
 }
 
 .button-header:hover {
@@ -89,12 +154,6 @@ button {
         color: #4D5AE5;
     }
     
-    
-    .kalos {
-        background-color: #2E2F42;
-
-    }
-
 
 a { 
     text-decoration: none;
@@ -121,6 +180,12 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+
+.section-wan {
+    background-color: #2E2F42;
+padding: 188px 0;
 }
 
 
